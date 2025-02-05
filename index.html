@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>I'm Sorry 😞</title>
+    <style>
+        /* Mobile-Friendly Styles */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe4e1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 90%;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #d9534f;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        button {
+            font-size: 18px;
+            padding: 15px;
+            width: 100%;
+            max-width: 300px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        #forgive-btn {
+            background-color: #5cb85c;
+            color: white;
+        }
+
+        #mad-btn {
+            background-color: #d9534f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>I'm really sorry for yelling at you. 💔</h1>
+        <p>You mean everything to me, and I hate that I hurt you. Can you forgive bibi? 🥺</p>
+        <div class="buttons">
+            <button id="forgive-btn">I forgive bibi 💕</button>
+            <button id="mad-btn">I'm still mad at bibi 😠</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("forgive-btn").addEventListener("click", function() {
+            alert("Yay! 😍 Thank you, my love! I promise to do better. ❤️");
+        });
+
+        document.getElementById("mad-btn").addEventListener("click", function() {
+            alert("I understand 😞. I'll keep working on being better. 💔");
+        });
+    </script>
+</body>
+</html>
